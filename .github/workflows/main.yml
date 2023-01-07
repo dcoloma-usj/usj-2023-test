@@ -44,7 +44,7 @@ jobs:
       - name: Test
         run: node_modules/node-qunit-phantomjs/bin/node-qunit-phantomjs test.html 
       - name: Lint
-        run: node_modules/eslint/bin/eslint.js plateValidation.js     
+        run: node_modules/eslint/bin/eslint.js triangle.js     
           
       - uses: actions/upload-artifact@v2
         with:
