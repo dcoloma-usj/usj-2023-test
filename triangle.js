@@ -34,7 +34,7 @@ function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-
   }
   
   gtag('event','triangle_calculated', {
-    "triangle": type
+    'triangle': type
   });
   
   return type;
